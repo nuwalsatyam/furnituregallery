@@ -1,0 +1,46 @@
+h1{
+    padding:20px;
+    text-align:center;
+      background-color: rgb(120, 200, 247);
+  color:rgba(8, 9, 85, 0.959);
+  border-bottom: solid rgb(2, 2, 126) 6px
+}
+
+a{
+  margin-left: 30px;
+  padding: 14px 25px;
+  text-align: center;
+  font: bold;
+  text-decoration: none;
+  display: inline-block;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #5904f8;
+}
+a:hover, a:active {
+    background-color: rgb(120, 200, 247);
+}
+  button{
+    margin-left: 30px;
+    padding: 8px 15px;
+    text-align: center;
+    font: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color:#b056bb; 
+    color: black; 
+    border: 2px solid #090411;
+  }
+  .div1{
+    border:1px solid black;
+  padding:10px 10px;
+  width:20%;
+  float: left;
+  border-color: rgb(6, 26, 204);
+  margin:10px;
+  }
+  .active-pink-2 input.form-control[type=text] {
+    border: 2px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+    width: 50%;
+  }

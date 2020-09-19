@@ -1,0 +1,37 @@
+<p>codevolution works!</p>
+
+<input #myInput type="text">
+<button (click)="logMessage(myInput)">log</button>
+{{bring}}
+
+<h1 *ngIf="bring ;then thenreference; else elsereference">
+   </h1>
+<ng-template  #thenreference>
+    <h1>
+       {{bring}} id woring++++
+     </h1>
+ </ng-template>
+<ng-template  #elsereference>
+    <h1>
+       else id woring++++
+     </h1>
+ </ng-template>
+
+<input [(ngModel)]="name" type="text">
+{{name}}
+<hr/><hr/>
+<div [ngSwitch]="color">
+<div *ngSwitchCase="'red'">you picked red color</div>
+<div *ngSwitchCase="'green'">you picked greeen color</div>
+<div *ngSwitchCase="'orange'">you picked orange color</div>
+</div>
+<h3>Arraays</h3>
+<div *ngFor="let colo of colors ; index as i">
+    {{i}}  {{colo}}
+
+</div>
+<hr><hr>
+<h1>{{"hello"+ parentdata}}</h1>
+<div *ngFor="let emp of codevolutions">
+    "id=" {{emp.id}}" name "{{emp.name}}
+</div>

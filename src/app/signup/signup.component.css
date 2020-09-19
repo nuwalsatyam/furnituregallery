@@ -1,0 +1,15 @@
+
+    button{
+      margin-left: 30px;
+      padding: 14px 25px;
+      text-align: center;
+      font: bold;
+      text-decoration: none;
+      display: inline-block;
+      background-color: white; 
+      color: black; 
+      border: 2px solid #090411;
+    }
+    button:hover, a:active {
+        background-color: rgb(120, 200, 247);
+      }
